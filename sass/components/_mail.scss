@@ -9,16 +9,12 @@
      display: flex;
     align-items: center;
     transition: var(--main-duration) var(--timing-function);
+    &:hover,
+    &:focus {
+  color: var(--acsent-color);
+  }
 }
 
-.mil-link:hover,
-.mil-link:focus {
-  color: var(--acsent-color);
-}
-.tel-link:hover,
-.tel-link:focus {
-  color: var(--acsent-color);
-}
  .adres-icon{
    fill: currentColor;
     margin-right: 10px;

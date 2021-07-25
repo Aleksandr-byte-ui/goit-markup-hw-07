@@ -1,5 +1,8 @@
 .contein{
     position: relative;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   .box-fon{
     bottom: 0;
@@ -34,10 +37,6 @@
     justify-content: space-between;
   }
   
-  
-  .contein:not(:last-child) {
-    margin-right: 30px;
-  }
   .picture-title {
     box-sizing: border-box;
     font-family: var(--main-font);
@@ -49,8 +48,7 @@
      margin-bottom: 50px; 
     
   }
-  .picture-con{
-    
+  .picture-con{   
   padding-bottom: 94px;
   padding-top: 94px;
   }

@@ -39,6 +39,10 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     transform: translateY(100%);
     transition: var(--main-duration) var(--timing-function);
     overflow: hidden;
+    .cart:hover &,
+    .cart:focus & {
+  transform: translateY(0);
+ }
 }
 .work-descr {
     padding-left: 24px;
@@ -68,10 +72,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
   transition: var(--main-duration) var(--timing-function);
   overflow-y: scroll;
 }
-.cart:hover .work-overlay,
-.cart:focus .work-overlay {
-  transform: translateY(0);
-}
+
 /* ---BLUE ICON ------*/
 .work-item .item-text {
   padding: 20px 24px;
