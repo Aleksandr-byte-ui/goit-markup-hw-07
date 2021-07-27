@@ -79,7 +79,7 @@ img {
   padding-right: 15px;
 }
 
-.logo {
+.page-header__logo {
   font-family: var(--secondery-font);
   font-style: normal;
   font-weight: 700;
@@ -89,7 +89,7 @@ img {
   margin-right: 92px;
 }
 
-.web {
+.page-header__web {
   font-family: var(--secondery-font);
   font-style: normal;
   font-weight: 700;
@@ -102,15 +102,8 @@ img {
   margin-right: 50px;
 }
 
-.auth-nav {
+.page-header__conteiner-nav {
   margin-left: auto;
-}
-
-.mil-link {
-  margin-right: 50px;
-  display: flex;
-  align-items: center;
-  transition: var(--main-duration) var(--timing-function);
 }
 
 .menu-link {
@@ -129,8 +122,8 @@ img {
   color: var(--acsent-color);
 }
 
-.mil-link,
-.tel-link {
+.page-header__mail,
+.page-header__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -141,17 +134,24 @@ img {
   transition: var(--main-duration) var(--timing-function);
 }
 
-.mil-link:hover, .mil-link:focus,
-.tel-link:hover,
-.tel-link:focus {
+.page-header__mail:hover, .page-header__mail:focus,
+.page-header__tel:hover,
+.page-header__tel:focus {
   color: var(--acsent-color);
 }
 
-.adres-icon {
+.page-header__icon {
   fill: currentColor;
   margin-right: 10px;
   width: 16px;
   height: 16px;
+}
+
+.page-header__mail {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  transition: var(--main-duration) var(--timing-function);
 }
 
 .backdrop {
@@ -344,28 +344,27 @@ img {
   outline: 1px solid var(--acsent-color);
 }
 
-.header {
+.page-header {
   padding-top: 24px;
   padding-bottom: 25px;
   position: relative;
 }
 
-.header .menu-link:hover,
-.header .menu-link:focus {
+.page-header.menu-link:hover, .page-header.menu-link:focus {
   color: var(--acsent-color);
 }
 
-.header-conteiner {
+.page-header__conteiner {
   display: flex;
   align-items: center;
 }
 
-.header-conteiner .menu-link:hover::after {
+.page-header__conteiner .menu-link:hover::after {
   transform: scaleX(1);
   opacity: 1;
 }
 
-.header-conteiner .menu-link::after {
+.page-header__conteiner .menu-link::after {
   content: '';
   display: block;
   position: absolute;
@@ -380,11 +379,11 @@ img {
   transition: transform var(--main-duration) var(--timing-function), opacity var(--main-duration) var(--timing-function);
 }
 
-.header-conteiner .menu-link.links {
+.page-header__conteiner .menu-link.links {
   color: var(--acsent-color);
 }
 
-.header-conteiner .menu-link.links::after {
+.page-header__conteiner .menu-link.links::after {
   transform: scaleX(1);
   opacity: 1;
 }

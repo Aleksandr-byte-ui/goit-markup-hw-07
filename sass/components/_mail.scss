@@ -1,6 +1,6 @@
 
-.mil-link,
-.tel-link {
+.page-header__mail,
+.page-header__tel{
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -15,9 +15,15 @@
   }
 }
 
- .adres-icon{
+ .page-header__icon{
    fill: currentColor;
     margin-right: 10px;
     width: 16px;
     height: 16px;
  }
+ .page-header__mail {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  transition: var(--main-duration) var(--timing-function);
+}

@@ -1,13 +1,13 @@
-.header {
-    padding-top:  24px;
+.page-header {
+    padding-top: 24px;
     padding-bottom:  25px;
     position: relative;
-    & .menu-link:hover,
-    & .menu-link:focus {
+    &.menu-link:hover,
+    &.menu-link:focus {
   color:var(--acsent-color);
 }
   }
-  .header-conteiner {
+  .page-header__conteiner {
     display: flex;
     align-items: center;
      & .menu-link:hover::after {
@@ -17,7 +17,7 @@
   }
   
 
-.header-conteiner .menu-link::after {
+.page-header__conteiner .menu-link::after {
   content: '';
   display: block;
   position: absolute;
@@ -35,7 +35,7 @@
 }
 
 
-.header-conteiner .menu-link.links{
+.page-header__conteiner .menu-link.links{
   color:var(--acsent-color);
    &::after {
     transform: scaleX(1);

@@ -1,15 +1,10 @@
 .menu-aitom:not(:last-child) {
   margin-right: 50px;
 }
-.auth-nav {
+.page-header__conteiner-nav {
   margin-left:auto;
 }
-.mil-link {
-  margin-right: 50px;
-  display: flex;
-    align-items: center;
-    transition: var(--main-duration) var(--timing-function);
-}
+
 .menu-link {
   display: flex;
   align-items: center;
