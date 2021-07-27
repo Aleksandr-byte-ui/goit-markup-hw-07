@@ -410,7 +410,7 @@ img {
   height: 70px;
 }
 
-.hero-section {
+.herov-section {
   background-color: #2f303a;
   padding-bottom: 200px;
   padding-top: 200px;
@@ -422,7 +422,7 @@ img {
   background-position: center;
 }
 
-.hero-taitl {
+.herov-taitl {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -432,7 +432,7 @@ img {
   color: var(--wait-color);
 }
 
-.hero-btn {
+.herov-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -442,24 +442,20 @@ img {
   letter-spacing: 0.06em;
   color: var(--wait-color);
   background: #0e83e2;
-}
-
-.hero-btn:hover, .hero-btn:focus {
-  background: #2196F3;
-  color: var(--wait-color);
-}
-
-.btn-conte {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
-  display: flex;
   border: none;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+}
+
+.herov-btn:hover, .herov-btn:focus {
+  background: #2196F3;
+  color: var(--wait-color);
 }
 
 .list-conteiner {
