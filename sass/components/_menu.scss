@@ -1,11 +1,9 @@
-.menu-aitom:not(:last-child) {
+.menu-list__aitom:not(:last-child) {
   margin-right: 50px;
 }
-.page-header__conteiner-nav {
-  margin-left:auto;
-}
 
-.menu-link {
+
+.menu-list__link {
   display: flex;
   align-items: center;
   position: relative;

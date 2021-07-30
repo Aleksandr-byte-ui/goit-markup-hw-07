@@ -20,28 +20,31 @@
 
 <body class="page">
 
-    <header class="page-header header-border">
+    <header class="header header-border">
         <div class=" conteiner page-header__conteiner">
-            <nav class=" page-header__conteiner ">
-                <a href="/" class="page-header__logo link"><span class="page-header__web">Web</span>Studio</a>
+            <nav class=" navigation ">
+                <a href="/" class="page-logo link"><span class="page-logo__web">Web</span>Studio</a>
 
-                <ul class="list page-header__conteiner ">
-                    <li class="menu-aitom list"><a class="menu-link link" href="./index.html">Студия</a></li>
-                    <li class="menu-aitom list"><a class="menu-link link links" href="./portfolio.html">Портфолио</a>
+                <ul class="list menu-list">
+                    <li class="menu-list__aitom list">
+                        <a class="menu-list__link link" href="./index.html">Студия</a></li>
+                    <li class="menu-list__aitom list">
+                        <a class="menu-list__link link links" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="menu-aitom list"><a class="menu-link link" href="">Контакты</a></li>
+                    <li class="menu-list__aitom list">
+                        <a class="menu-list__link link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="list page-header__conteiner page-header__conteiner-nav">
-                <li><a class="page-header__mail link" href="milto:info@devstudio.com">
-                        <svg class="page-header__icon" width="16px" height="12px" ;>
+            <ul class="contacts">
+                <li><a class="contacts__mail link" href="milto:info@devstudio.com">
+                        <svg class="contacts__icon" width="16px" height="12px" ;>
                             <use href="./images/itoms/symbol-defs.svg#icon-envelope">
                             </use>
                         </svg> info@devstudio.com
                     </a>
                 </li>
-                <li><a class="page-header__tel link" href="tel:+380961111111">
-                        <svg class="page-header__icon" width="16px" height="12px" ;>
+                <li><a class="contacts__tel link" href="tel:+380961111111">
+                        <svg class="contacts__icon" width="16px" height="12px" ;>
                             <use href="./images/itoms/symbol-defs.svg#icon-smartphone">
                             </use>
                         </svg>+38 096 111 11 11
@@ -54,7 +57,7 @@
         <section class=" portfolio-conte">
             <div class="conteiner">
                 <h1 class="btn-tit">Портфолио</h1>
-                <ul class="btn btn-conteiner">
+                <ul class="btn-conteiner">
 
                     <li class="list btn-cont">
                         <a class="modal-btn" type="button">Все</a>
@@ -302,7 +305,7 @@
                     </ul>
                 </div>
                 <div class="footer-mail-title">
-                    <p >Подпишитесь на рассылку</p>
+                    <p  class="footer-social-title">Подпишитесь на рассылку</p>
                     <form class="mail-foter">
                         <label >
                             <input type="text" class="footer-input" name="email" placeholder="E-mail" required>

@@ -1,4 +1,4 @@
-.list-conteiner {
+.list {
     display: flex;
     padding-left: 0;
      margin-left: 0;
@@ -7,12 +7,8 @@
   .hero-conteiner {
     padding-top: 94px;
   }
-  .list-li{
-    box-sizing: border-box;
-    width: 270px;
-    Height:75px;
-  }
-  .list-itom {
+  
+  .list__itom {
     flex-basis: calc((100%-120) / 4);
     width:270px;
      &:not(:first-child){
@@ -20,15 +16,18 @@
     }
   }
 
-  .description {
+  .list__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-gray);
     margin-right: 30px;
+    box-sizing: border-box;
+    width: 270px;
+    Height:75px;
   }
-  .list-title {
+  .list__title {
     font-family: var(--main-font);
     font-weight: 700;
     font-size: 14px;
